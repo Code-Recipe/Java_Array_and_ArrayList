@@ -1,0 +1,51 @@
+{
+  "name": "Array和ArrayList教程",
+  "desc": "这个教程主要配合Java介绍Array和ArrayList的理论知识概念，不管以后要学习哪一个面向对象语言，学习这个教程都是很有用的。",
+  "keywords": ["编程", "基础"],
+  "cover": "cover.png",
+  "tags": ["编程", "基础", "入门"],
+  "chapters": [
+    {
+      "name": "数组Array",
+      "content": "Chapter1/Chapter1.md",
+      "sections": [
+        {"name":"数组的定义和数组值的存取"},
+        {"name":"数组的长度"},
+        {"name":"遍历数组"},
+        {"name":"数组和类"},
+        {"name":"作为参数传递数组"},
+        {"name":"小练习"}
+      ]
+    },
+    {
+      "name": "数组列表ArrayList",
+      "content": "Chapter2/Chapter2.md",
+      "sections": [
+        {"name":"集合API"},
+        {"name":"集合和泛型"},
+        {"name":"封包拆包"},
+        {"name":"小练习"}
+      ]
+    },
+    {
+      "name": "List<E>接口",
+      "content": "Chapter3/Chapter3.md",
+      "sections": [
+        {"name":"List<E>的结构"},
+        {"name":"ArrayList<E>类"},
+        {"name":"如何使用List<E>"},
+        {"name":"小练习"}
+      ]
+    },
+    {
+      "name": "二维数组",
+      "content": "Chapter4/Chapter4.md",
+      "sections": [
+        {"name":"定义二维数组"},
+        {"name":"用二维数组来表示矩阵"},
+        {"name":"处理二维数组"},
+        {"name":"小练习"}
+      ]
+    }
+  ]
+}
