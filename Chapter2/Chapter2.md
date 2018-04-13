@@ -104,6 +104,9 @@ if (a == b)    // 不成立
 
 (E) The String methods are easier to use with an ArrayList than with an array.
 
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>E</cr>
+
 2.Here is a method that locates the Student with the highest idNum:
 ```java
 /**Precondition: ArraystuArrofStudentisinitialized. * @return Student with highest idNum
@@ -152,3 +155,6 @@ return stuArr[maxPos];
 (D) I and III only
 
 (E) II and III only
+
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>E</cr>

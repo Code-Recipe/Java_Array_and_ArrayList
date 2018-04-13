@@ -110,6 +110,8 @@ then alter(1) will change mat to
 * 2888
 * 3999
 
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>A</cr>
 2.Consider the following method that will alter the matrix mat:
 ```
 /** @param mat the initialized matrix * @param row the row number
@@ -151,3 +153,6 @@ After the method call matStuff(mat,2), matrix mat will be
 * 1290
 * 2286
 * 5243
+
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>A</cr>

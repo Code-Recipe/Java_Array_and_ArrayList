@@ -154,76 +154,35 @@ for(int n:list) System.out.print(n+” ”);
 ```
 The change array is 4,5,6,7
 ```
-小练习
-------
-
-
-
-
-
-
-练习环境小热身
-------
-下面是练习框，让我们跟着练习框的下方的指示一起来熟悉一下练习环境吧。
-
-<lab lang="blocks" parameters="logic=false&math=false&loops=false&lists=false&color=false&variables=false&functions=false&text=false&name=chapter1lab1">
-  <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>
-</lab>
-
-首先，点击左边的“输入输出”，将“输出”块拖到右边。然后，修改一下文字“abc”成“Hello World!”，再点击右边的红色按钮运行。
-结果应该是这样：
-![运行截图](Pic2.png)
-
-那输入呢？ 让我们把“输入文字并提示消息”块插到“输出”块上，这里的提示消息指的是在输入文字的时候会告诉我们程序的使用者输入的文字的含义，同样点击运行，首先输入一些文字，然后点确认，这串文字就会被输出了。当然，我们也可以通过下拉框选择让这个输入块读取数字，试一试吧。
-
-如果想删除一个块，把它拖到右下角的垃圾桶图标上就好了。
-
-![运行截图](Pic3.png)
-
-细心的你可能会发现，在选择输入数字以后，如果输入的不是一个数字，就会输出NaN，这是为什么呢？其实NaN的意思是Not a Number，代表程序告诉我们输入的并不是一个数字。
-
-这样，我们就做出了一个小程序，它能读取用户的输入，然后对数字进行处理，然后输出回来，是不是很有意思呀~
-
-计算
-------
-刚才我们学完了最基本的输入输出，那接下来我们可以更进一步，学一下如何让计算机来为我们进行运算。
-
-<lab lang="blocks" parameters="logic=false&loops=false&lists=false&color=false&variables=false&functions=false&text=false&name=chapter1lab2">
-  <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>
-</lab>
-
-你可能会发现，这个练习环境和之前不一样，因为这里多了一个“数学”按钮，点进去以后会发现里面全都是数学运算，看起来好复杂的样子。让我们从简单的开始，先拖动一个“1+1”块（其实这是四则运算加乘方块，我们等一会儿就知道啦），插在“输出”块上，点击运行，大功告成啦！
-![运行截图](Pic4.png)
-
-这个“1+1”块可没有看起来那么简单，这个块是可是可以高度定制的呢！我们可以1+1成为任意的四则运算内容，比如10÷5。而且这个“1+1”块内部还可以嵌入其他块，这样就可以做好多次加减乘除啦。
-
-我们还可以把输入块放入这个运算块里，不过记得选择“输入数字并显示消息”而不是“输入文字并显示消息”，不然是放不进运算块的，毕竟文字可不能进行四则运算。
-
-像底下这样组合块就可以做出一个除法计算器啦！
-![运行截图](Pic5.png)
 
 小练习
 ------
 1.Which of the following correctly initializes an array arr to contain four elements each with value 0?
 
-I int[] arr = {0, 0, 0, 0};
+I
+```java
+int[] arr = {0, 0, 0, 0};
+```
+II
+```java
+int[] arr = new int[4];
+```
+III
+```java
+int[] arr = new int[4];
+for (int i = 0; i < arr.length; i++){
+	arr[i] = 0;
+}
+```
+(A) I only
 
-II int[] arr = new int[4];
+(B) III only
 
-III int[] arr = new int[4];
+(C) I and III only
 
-  for (int i = 0; i < arr.length; i++)
-arr[i] = 0;
+(D) II and III only
 
-(A) Ionly
-
-(B) IIIonly
-
-(C) IandIIIonly
-
-(D) IIandIIIonly
-
-(E) I,II,andIII
+(E) I, II, and III
 
 下面的内容要按一下才会显示：
 <cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>E</cr>
@@ -236,16 +195,15 @@ sum += arr[i]; }
 ```
 Which of the following will be the result of executing the segment?
 
-(A) Sumofarr[0],arr[1],...,arr[arr.length-1]willbestoredinsum.
+(A) Sum of arr[0], arr[1], ..., arr[arr.length-1] will be stored in sum.
 
-(B) Sumofarr[1],arr[2],...,arr[arr.length-1]willbestoredinsum.
+(B) Sum of arr[1], arr[2], ..., arr[arr.length-1] will be stored in sum.
 
-(C) Sumofarr[0],arr[1],...,arr[arr.length]willbestoredinsum.
+(C) Sum of arr[0], arr[1], ..., arr[arr.length] will be stored in sum.
 
-(D) Aninfiniteloopwilloccur.
+(D) An infinite loop will occur.
 
 (E) A run-time error will occur.
 
 下面的内容要按一下才会显示：
 <cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>E</cr>
-学到这里，你就已经算是入门计算机编程啦👏，加油加油继续学习吧~
