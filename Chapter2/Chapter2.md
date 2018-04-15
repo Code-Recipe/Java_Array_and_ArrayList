@@ -20,7 +20,7 @@ Java教程-
 -----
 ArrayList类是一种集合API(Application Programming Interface)，是一个Java提供的库，大部分API都在java.util里。
 
-集合与泛型
+集合和泛型
 -----
 Java的集合类主要负责保存、盛装和管理对象，因此集合类也被称为容器类。
 

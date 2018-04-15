@@ -6,14 +6,14 @@ Java教程-
 
 这是程谱Java教程数组与数组列表单元的的第3章，主要为大家讲解List接口。请大家进行学习！
 
-List的结构
+List&lt;E>的结构
 -----
 List是一个有序的集合，和set不同的是，List允许存储项的值为空，也允许存储相等值的存储项。List主要分为3类，ArrayList， LinkedList和Vector。
 
 为了进一步清晰List的结构，大家可以看一下下图。它其实是继承于Collection接口，除了Collection通用的方法以外，扩展了部分只属于List的方法。
 ![List结构](Pic1.png)
 
-ArrayList类
+ArrayList&lt;E>类
 -----
 ArrayList<E>实现了List<E>接口（可以当成一种List&lt;E>），就是一列类型为E的元素，并允许重复。
 List&lt;E>可以让你：
@@ -25,6 +25,8 @@ List&lt;E>可以让你：
 
 那么，我们就来看一下，如何使用List&lt;E>的一些方法。
 
+如何使用List&lt;E>
+-----
 1.
 ```java
 boolean add(E obj);

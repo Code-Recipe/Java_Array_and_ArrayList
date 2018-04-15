@@ -108,7 +108,7 @@ for(int i = 0; i < 100;i++){
 System.out.println(stndentWeight[i]);
 }
 ```
-数组的长度
+遍历数组
 ------
 通过我们之前学过的循环方法，我们可以遍历整个数组中的元素：
 
