@@ -21,6 +21,7 @@
       "name": "数组列表ArrayList",
       "content": "Chapter2/Chapter2.md",
       "sections": [
+        {"name":"数组列表的定义"},
         {"name":"集合API"},
         {"name":"集合和泛型"},
         {"name":"包类"},
