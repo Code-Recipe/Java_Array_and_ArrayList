@@ -131,7 +131,8 @@ int array[] = {1,2,3};
 ```
 这样就会把数组中的内容都输出出来。
 
-TIPS:在for-each循环中不能增加或者减少数组的内容，不然可能会导致循环出现问题。
+**注意：**在for-each循环中不能增加或者减少数组的内容，不然可能会导致循环出现问题。
+
 作为参数传递数组
 ----
 Array被当做一种对象Object，他在被传递的时候传递的是Reference而不是值（具体后面会提到），所以Java不会把Array复制一份。传入后修改array的内容会导致原array变量读取出的是修改后的内容。比如下面这个例子：
@@ -184,7 +185,7 @@ for (int i = 0; i < arr.length; i++){
 
 (E) I, II, and III
 
-下面的内容要按一下才会显示：
+答案：
 <cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>E</cr>
 
 2.Refer to the following codes egment. You may assume that arr is an array of int values.
@@ -205,5 +206,5 @@ Which of the following will be the result of executing the segment?
 
 (E) A run-time error will occur.
 
-下面的内容要按一下才会显示：
+答案：
 <cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>E</cr>

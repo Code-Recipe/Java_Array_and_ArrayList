@@ -12,7 +12,6 @@
         {"name":"数组的定义和数组值的存取"},
         {"name":"数组的长度"},
         {"name":"遍历数组"},
-        {"name":"数组和类"},
         {"name":"作为参数传递数组"},
         {"name":"小练习"}
       ]
@@ -21,6 +20,7 @@
       "name": "数组列表ArrayList",
       "content": "Chapter2/Chapter2.md",
       "sections": [
+        {"name":"数组列表的定义"},
         {"name":"集合API"},
         {"name":"集合和泛型"},
         {"name":"包类"},
