@@ -32,9 +32,9 @@
       "name": "List<E>接口",
       "content": "Chapter3/Chapter3.md",
       "sections": [
-        {"name":"List<E>的结构"},
-        {"name":"ArrayList<E>类"},
-        {"name":"如何使用List<E>"},
+        {"name":"List<E>的结构", "anchor": "ListltE的结构"},
+        {"name":"ArrayList<E>类", "anchor": "ArrayListltE类"},
+        {"name":"如何使用List<E>", "anchor": "如何使用ListltE"},
         {"name":"小练习"}
       ]
     },
